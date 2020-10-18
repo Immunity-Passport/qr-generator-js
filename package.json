@@ -1,0 +1,22 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && cp ./src/generated.js ./lib/generated.js && cp ./src/generated.js.map ./lib/generated.js.map",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.11.10",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
