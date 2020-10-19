@@ -2,7 +2,7 @@
   "name": "qr-generator-js",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc && cp ./src/generated.js ./lib/generated.js && cp ./src/generated.js.map ./lib/generated.js.map",
     "test": "echo \"Error: no test specified\" && exit 1"
